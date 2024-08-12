@@ -10,8 +10,9 @@ export default function ErrorPage() {
 
   const location = useLocation();
 
-  console.error(error);
-  console.log(location);
+  console.error('error:', error);
+  console.log('location:', location);
+  console.log('window.location.href:', window.location.href);
 
   return (
     <div id="error-page">
