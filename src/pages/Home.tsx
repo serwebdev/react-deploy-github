@@ -1,4 +1,6 @@
 const Home = () => {
+  console.log('BASE_URL:', import.meta.env.BASE_URL);
+
   return (
     <div>
       <div className="container">
