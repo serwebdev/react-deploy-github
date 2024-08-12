@@ -1,4 +1,4 @@
-import { useLocation, useRouteError } from 'react-router-dom';
+import { Link, useLocation, useRouteError } from 'react-router-dom';
 
 interface IError {
   statusText: string;
@@ -21,6 +21,8 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
+      <Link to={'/'}>На главную</Link>
+      <Link to={'/about'}>На страницу О нас</Link>
     </div>
   );
 }
