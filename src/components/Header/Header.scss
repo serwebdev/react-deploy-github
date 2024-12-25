@@ -1,0 +1,22 @@
+.header {
+  // .header__inner
+
+  &__inner {
+    padding: 20px 0;
+  }
+}
+
+.menu {
+  // .menu__list
+
+  &__list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  // .menu__item
+
+  &__item {
+  }
+}
