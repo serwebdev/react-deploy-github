@@ -5,7 +5,7 @@ const BASE_URL = import.meta.env.BASE_URL;
 
 const menu = [
   {
-    href: BASE_URL + '/',
+    href: BASE_URL,
     name: 'Главная',
   },
   {
