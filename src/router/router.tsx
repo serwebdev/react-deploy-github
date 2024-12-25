@@ -4,9 +4,11 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import ErrorPage from '../pages/ErrorPage';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: BASE_URL,
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [

@@ -1,13 +1,15 @@
 import { NavLink } from 'react-router-dom';
 import './Header.scss';
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const menu = [
   {
-    href: '/',
+    href: BASE_URL + '/',
     name: 'Главная',
   },
   {
-    href: '/about',
+    href: BASE_URL + 'about',
     name: 'О нас',
   },
 ];
